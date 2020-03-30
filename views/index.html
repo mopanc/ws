@@ -1,0 +1,52 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<section id="intro">
+
+    <header>
+        <a href="/"><img src="/logo.png" alt="imagem da logomarca">
+        </a>
+        <!--o alt é uma alternativa a imagem no caso de nao encontrar-->
+    </header>
+
+    <main>
+        <p>
+            Ficar em casa por períodos longos, não deve ser nada fácil.
+        </p>
+
+        <p>
+            Por isso, iremos catalogar ideias,<strong> brincadeiras, jogos, filmes,
+            livros, cursos, dicas</strong> e tudo que for necessário para tornar esse 
+            momento mais interessante.
+        </p>
+
+        <p>
+            Comece clicando em ver ideias para ver as ideias 
+            cadastradas e contribua adicionando a sua ideia.
+        </p>
+
+    </main>
+
+    <section id="buttons">
+        <button onclick="onOff()">+ Adicionar Ideia</button>
+        <a href="/ideias" class="button"> Ver Ideias</a>
+
+    </section>
+
+
+        <footer>
+            com 💙 <a href="http://rocketseat.com.br" target="_blank">RocktSeat</a> 
+        
+        </footer>
+
+
+</section>
+
+<section id="last-ideias">
+
+    {% include "all_Ideas.html" %}
+    
+</section>
+
+{% endblock %}
