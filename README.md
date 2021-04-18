@@ -11,7 +11,7 @@
 <p align="center">
 <img alt="Last commit on GitHub" src="https://img.shields.io/github/last-commit/mopanc/ws?color=FF5E84">
 <img alt="Project top programing language" src="https://img.shields.io/github/languages/top/Mopanc/ws?color=FF5E84">
- <img alt="GitHub license" src="https://img.shields.io/github/license/Evoney/CasaCriativa?color=FF5E84">
+ <img alt="GitHub license" src="https://img.shields.io/github/license/Mopanc/ws?color=FF5E84">
 </p> 
 
 <p align="center">
